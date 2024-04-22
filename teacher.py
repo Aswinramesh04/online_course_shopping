@@ -9,4 +9,3 @@ class Teacher:
 
     def view_created_course(self):
         return self.created_courses
-

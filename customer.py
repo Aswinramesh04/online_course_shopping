@@ -4,7 +4,6 @@ class Customer:
         self.name = name
         self.cart = []
 
-
     def add_to_cart(self, course):
         self.cart.append(course)
 
@@ -12,4 +11,4 @@ class Customer:
         return self.cart
 
     def calculate_total_price(self):
-        return sum(course.price for course in self.cart) # java, python
+        return sum(course.price for course in self.cart)
